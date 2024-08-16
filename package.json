@@ -1,0 +1,21 @@
+{
+  "name": "detection-arnaques",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Détecter les arnaques dans les annonces automobiles",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.3",
+    "babel-jest": "^27.3.1",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1"
+  }
+}
